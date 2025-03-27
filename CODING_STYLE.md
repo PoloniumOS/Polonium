@@ -12,11 +12,11 @@
 2.2. Functions in RTL (Runtime Library) should be prefixed with Rtl namespace    
 2.3. Functions in kernel should be prefixed with kernel namespace that they belong.      
 2.4. If function is internal but you think it would be useful in another place you should:     
- - If function is prefixed with namespace you should replace last letter of the namespace prefix with small i    
- - Else you should add I (Big one) on the start of Function name     
+ 2.4.1 If function is prefixed with namespace you should replace last letter of the namespace prefix with small i    
+ 2.4.2 Else you should add I (Big one) on the start of Function name     
 2.5. If function is private or static:    
- - If function is prefixed with namespace you should replace add letter to the namespace prefix with small p     
- - Else you should add P (Big one) on the start of Function name    
+ 2.5.1 If function is prefixed with namespace you should replace add letter to the namespace prefix with small p     
+ 2.5.2 Else you should add P (Big one) on the start of Function name    
 2.6. Arguments should be called using pascal case       
 
 ## 3. C Variables naming       
